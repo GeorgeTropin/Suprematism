@@ -1,7 +1,9 @@
 let funcAnimation01 = anime ({
   targets: '.block_ol-28',
-  rotate: [-360, 360],
-  easing: 'easeInOutQuart',
+  // rotate: [-360, 360],
+  translateX: 10,
+  translateY: 5,
+  easing: 'spring(5, 80, 5, 10)',
   duration: 3000,
   direction: 'alternate',
   loop: true
@@ -18,14 +20,14 @@ let funcAnimation02 = anime ({
   loop: true
 })
 
-let funcAnimation03 = anime ({
-  targets: '.block_ol-24',
-  rotate: 360,
-  easing: 'cubicBezier(.5, .05, .1, .3)',
-  direction: 'alternate',
-  duration: 6000,
-  loop: true
-})
+// let funcAnimation03 = anime ({
+//   targets: '.block_ol-24',
+//   rotate: 360,
+//   easing: 'cubicBezier(.5, .05, .1, .3)',
+//   direction: 'alternate',
+//   duration: 6000,
+//   loop: true
+// })
 
 let funcAnimation04 = anime ({
   targets: '.block_ol-10',
