@@ -1,3 +1,5 @@
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+
 * {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
@@ -62,8 +64,12 @@ body {
 
 .block_ol-8 {
   position: absolute;
+  width: 446px;
+  height: 126.2px;
   left: -96.1px;
-  top: 308.92px;
+  top: 410px;
+  background: #A92A1C;
+  transform: rotate(-30deg);
   z-index: 1;
 }
 
@@ -118,8 +124,12 @@ body {
 
 .block_ol-16 {
   position: absolute;
+  width: 225px;
+  height: 225px;
+  border-radius: 100%;
   left: 300px;
   top: 313px;
+  background: #F5D84B;
   z-index: -1;
 }
 
@@ -146,15 +156,23 @@ body {
 
 .block_ol-20 {
   position: absolute;
+  width: 165.86px;
+  height: 60px;
   left: 430px;
-  top: 438px;
+  top: 480px;
+  background: #AB2F20;
+  transform: rotate(35deg);
   z-index: -1;
 }
 
 .block_ol-21 {
   position: absolute;
+  width: 76px;
+  height: 76px;
+  border-radius: 100%;
   left: 481px;
   top: 399px;
+  background: #2B2121;
   z-index: 1;
 }
 
@@ -167,8 +185,11 @@ body {
 
 .block_ol-23 {
   position: absolute;
+  width: 38px;
+  height: 197px;
   left: 505px;
   top: 401px;
+  background: #C37429;
   z-index: -2;
 }
 
@@ -187,6 +208,10 @@ body {
 }
 
 .block_ol-26 {
+  width: 100px;
+  height: 100px;
+  background: #F5D854;
+  border-radius: 100%;
   position: absolute;
   left: 567px;
   top: 351px;
@@ -195,8 +220,12 @@ body {
 
 .block_ol-27 {
   position: absolute;
+  width: 30px;
+  height: 120px;
   left: 636px;
   top: 401px;
+
+  background: #E99D3D;
   z-index: -2;
 }
 
@@ -204,10 +233,14 @@ body {
   position: absolute;
   left: 633.73px;
   top: 399.25px;
-  z-index: 0;
+  z-index: -2;
 }
 
 .block_ol-29 {
+  width: 40px;
+  height: 40px;
+  background: #C15340;
+  border-radius: 100%;
   position: absolute;
   left: 765px;
   top: 472px;
