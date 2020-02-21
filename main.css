@@ -291,15 +291,23 @@ body {
 
 .block_ol-36 {
   position: absolute;
-  left: 1288px;
-  top: 255px;
-  z-index: -2;
+  width: 450px;
+  height: 30px;
+  left: 1200px;
+  top: 350px;
+  background: #202062;
+  transform: rotate(-15deg);
+  z-index: -1;
 }
 
 .block_ol-37 {
   position: absolute;
+  width: 150px;
+  height: 150px;
   left: 1213px;
   top: 370px;
+  background: #B74D2B;
+  border-radius: 100%;
   z-index: -1;
 }
 
@@ -340,8 +348,12 @@ body {
 
 .block_ol-43 {
   position: absolute;
-  left: 885px;
+  width: 40px;
+  height: 40px;
+  left: 880px;
   top: 492px;
+  background: #C15340;
+  border-radius: 100%;
   z-index: 0;
 }
 
@@ -375,8 +387,12 @@ body {
 
 .block_ol-48 {
   position: absolute;
-  left: 1025px;
-  top: 580px;
+  width: 40px;
+  height: 40px;
+  left: 1030px;
+  top: 584.04px;
+  background: #AB2F20;
+  border-radius: 100%;
   z-index: 0;
 }
 
@@ -417,8 +433,12 @@ body {
 
 .block_ol-54 {
   position: absolute;
+  width: 30px;
+  height: 30px;
   left: 1100px;
-  top: 636px;
+  top: 635px;
+  background: #3E735E;
+  border-radius: 100%;
   z-index: 0;
 }
 
@@ -438,7 +458,11 @@ body {
 
 .block_ol-57 {
   position: absolute;
+  width: 30px;
+  height: 30px;
   left: 1165px;
   top: 596px;
+  background: #E49B4A;
+  border-radius: 100%;
   z-index: 0;
 }

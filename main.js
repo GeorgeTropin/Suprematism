@@ -2,7 +2,7 @@ let funcAnimation01 = anime ({
   targets: '.block_ol-28',
   rotate: [-360, 360],
   easing: 'easeInOutQuart',
-  duration: 2000,
+  duration: 3000,
   direction: 'alternate',
   loop: true
 })
@@ -23,7 +23,7 @@ let funcAnimation03 = anime ({
   rotate: 360,
   easing: 'cubicBezier(.5, .05, .1, .3)',
   direction: 'alternate',
-  duration: 2000,
+  duration: 6000,
   loop: true
 })
 
@@ -48,12 +48,11 @@ let funcAnimation05 = anime ({
 
 let funcAnimation06 = anime ({
   targets: '.block_ol-29',
-  translateX: 82,
-  translateY: 30,
   backgroundColor: '#4340C1',
-  scale: [-1,1],
+  scale: 1.1,
   easing: 'easeInOutQuad',
   direction: 'alternate',
+  duration: 500,
   loop: true
 })
 
@@ -126,7 +125,7 @@ let funcAnimation14 = anime ({
   translateX: 300,
   easing: 'easeInOutQuad',
   direction: 'alternate',
-  duration: 2000,
+  duration: 3000,
   loop: true
 })
 
@@ -135,7 +134,7 @@ let funcAnimation15 = anime ({
   translateY: 300,
   easing: 'easeInOutQuad',
   direction: 'alternate',
-  duration: 2000,
+  duration: 3000,
   loop: true
 })
 
@@ -144,7 +143,7 @@ let funcAnimation16 = anime ({
   translateY: 300,
   easing: 'easeInOutQuad',
   direction: 'alternate',
-  duration: 2000,
+  duration: 3000,
   loop: true
 })
 
@@ -153,28 +152,77 @@ let funcAnimation17 = anime ({
   translateY: 300,
   easing: 'easeInOutQuad',
   direction: 'alternate',
-  duration: 2000,
+  duration: 3000,
   loop: true
 })
 
+let funcAnimation18 = anime ({
+  targets: '.block_ol-43',
+  backgroundColor: '#E49B4A',
+  easing: 'easeInOutQuad',
+  direction: 'alternate',
+  duration: 500,
+  scale: 1.1,
+  loop: true
+})
 
+let funcAnimation19 = anime ({
+  targets: '.block_ol-48',
+  backgroundColor: '#3E735E',
+  easing: 'easeInOutQuad',
+  direction: 'alternate',
+  duration: 500,
+  scale: 1.1,
+  loop: true
+})
 
-// let funcAnimation07 = anime ({
-//   targets: '.block_ol-33',
-//   translateY: -600,
-//   rotate: 140,
-//   easing: 'cubicBezier(.5, .05, .1, .3)',
-//   direction: 'alternate',
-//   loop: true,
-//   autoplay: false
-// })
-//
-// let funcBtn = document.getElementById('funcBtn')
-// funcBtn.onclick = funcAnimation01.play
+let funcAnimation20 = anime ({
+  targets: '.block_ol-54',
+  backgroundColor: '#C15340',
+  easing: 'easeInOutQuad',
+  direction: 'alternate',
+  duration: 500,
+  scale: 1.1,
+  loop: true
+})
 
+let funcAnimation21 = anime ({
+  targets: '.block_ol-57',
+  backgroundColor: '#AB2F20',
+  easing: 'easeInOutQuad',
+  direction: 'alternate',
+  duration: 500,
+  scale: 1.1,
+  loop: true
+})
 
-// rotate: 190,
-// scale: [-2, 2],
-// easing: 'easeInOutQuad',
-// direction: 'alternate',
-// loop: true
+let funcAnimation22 = anime ({
+  targets: '.block_ol-50',
+  rotate: -30,
+  easing: 'easeInOutQuad',
+  direction: 'alternate',
+  duration: 1000,
+  loop: true
+})
+
+let funcAnimation23 = anime ({
+  targets: '.block_ol-37',
+  translateX: 350,
+  translateY: -100,
+  easing: 'easeInOutQuad',
+  direction: 'alternate',
+  duration: 1000,
+  loop: true
+})
+
+let funcAnimation24 = anime ({
+  targets: '.block_ol-36',
+  width: 1,
+  height: 10,
+  rotate: [-360, 360],
+  scale: 2,
+  easing: 'easeInOutQuad',
+  direction: 'alternate',
+  duration: 5000,
+  loop: true
+})
